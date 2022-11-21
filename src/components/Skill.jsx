@@ -24,7 +24,7 @@ function Skill({ directionLeft, image, name, style, prof }) {
         />
         <p className="uppercase mt-1">{name}</p>
       </div>
-      <div className="absolute opacity-0 group-hover:opacity-80 transition ease-in-out group-hover:bg-white duration-300 w-20 h-20 md:h-24 md:w-24 rounded-full z-0 ">
+      <div className="absolute opacity-0 group-hover:opacity-80 transition ease-in-out group-hover:bg-white duration-300 w-20 h-20  rounded-full z-0 ">
         <div className="flex items-center h-full justify-center">
           <p className="text-2xl text-black text-semibold">{prof}%</p>
         </div>
