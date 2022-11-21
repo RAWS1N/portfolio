@@ -13,10 +13,10 @@ function Skills() {
       viewport={{ once: true }}
       className="h-screen relative flex flex-col text-center md:text-left items-center justify-center md:p-10 xl:flex-row min-h-screen"
     >
-      <h3 className="absolute top-10 tracking-[12px] text-gray-500 uppercase text-2xl">
+      <h3 className="absolute top-20 tracking-[12px] text-gray-500 uppercase text-2xl">
         Skills
       </h3>
-      <h3 className="absolute top-36 text-sm tracking-[12px] text-gray-500 uppercase ">
+      <h3 className="absolute top-30 text-sm tracking-[12px] text-gray-500 uppercase ">
         Hover over a skill for current proficiency
       </h3>
       <div className="grid grid-cols-3 md:grid-cols-4 grid-flow-row  gap-4 ">
