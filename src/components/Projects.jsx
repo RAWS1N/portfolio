@@ -38,7 +38,7 @@ function Projects() {
                 &nbsp; {project.title}
               </h4>
               <a href={project.link} target="_blank" rel="noreferrer" className="block pt-2">
-              <p>Visit: {project.link}</p>
+              Visit: {project.link}
               </a>
             </div>
           </div>

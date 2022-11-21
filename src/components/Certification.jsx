@@ -15,7 +15,7 @@ function Certification() {
             src="/images/AlgoExpert_Certificate-2.jpg"
             className=" md:h-full h-2/5  block mt-6 w-11/12 md:w-9/12"
           />
-          <a target="_blank" href="https://certificate.algoexpert.io/AE-082cbb91ae">
+          <a target="_blank" rel="noreferrer" href="https://certificate.algoexpert.io/AE-082cbb91ae">
             <p>https://certificate.algoexpert.io/AE-082cbb91ae</p>
           </a>
           <p>1/2</p>
@@ -26,8 +26,8 @@ function Certification() {
             src="/images/Scrimba-Certificate-2.jpg"
             className="h-10/12 block mt-6 md:h-5/6 w-11/12 md:w-9/12"
           />
-           <a target="_blank" href="https://scrimba.com/certificate/ukR2LKs3/gfrontend">
-            <p>https://scrimba.com/certificate/ukR2LKs3/gfrontend</p>
+           <a target="_blank" rel="noreferrer" href="https://scrimba.com/certificate/ukR2LKs3/gfrontend">
+            https://scrimba.com/certificate/ukR2LKs3/gfrontend
           </a>
           <p>2/2</p>
         </div>

@@ -18,9 +18,9 @@ function Header() {
         }}
        
       >
-        <h1 className="tracking-[4px] text-2xl">
+        <a href="hero" className="tracking-[4px] text-2xl">
          RAWS1N
-        </h1>
+        </a>
       </motion.div>
       <motion.div initial={{
         scale:0.5,
@@ -34,10 +34,9 @@ function Header() {
       }}
       
       >
-        <a href="#contact">
-        <button className="border px-4 py-1  rounded-sm shadow-sm bg-white text-black font-medium">
+        <a href="#contact"
+        className="border px-4 py-1  rounded-sm shadow-sm bg-white text-black font-medium">
           Contact
-        </button>
         </a>
       </motion.div>
     </header>
