@@ -19,7 +19,7 @@ function Skill({ directionLeft, image, name, style, prof }) {
           }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
-          className={`border w-20 h-20 md:h-24 md:w-24 object-cover  border-gray-500 rounded-full  filter group-hover:grayscale duration-300 ease-in-out p-1 ${style}`}
+          className={`border w-20 h-20  object-cover  border-gray-500 rounded-full  filter group-hover:grayscale duration-300 ease-in-out p-1 ${style}`}
         />
         <p className="uppercase mt-1">{name}</p>
       </div>
