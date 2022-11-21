@@ -3,7 +3,7 @@ import React from "react";
 
 function Skill({ directionLeft, image, name, style, prof }) {
   return (
-    <div className="group top-24 relative flex cursor-pointer">
+    <div className="group top-24 md:top-14 relative flex cursor-pointer">
       <div className="flex flex-col items-center justify-center">
         <motion.img
           src={`/images/${image}`}
@@ -12,7 +12,7 @@ function Skill({ directionLeft, image, name, style, prof }) {
           width="400"
           initial={{
             // x: directionLeft === true ? -200 : 200,
-            x:0,
+            x: 0,
             opacity: 0,
           }}
           transition={{
