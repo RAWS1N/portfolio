@@ -12,7 +12,7 @@ function Skill({ directionLeft, image, name, style, prof }) {
           width="400"
           initial={{
             // x: directionLeft === true ? -200 : 200,
-            x:0
+            x:0,
             opacity: 0,
           }}
           transition={{
