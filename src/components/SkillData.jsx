@@ -38,7 +38,7 @@ export const SkillData =  [
     },
     {name:"firebase",
      prof : 83,
-     image:'Firebase.png',
+     image:'firebase.png',
      directionLeft:true,   
     },
     {name:"github",
