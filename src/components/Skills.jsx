@@ -19,7 +19,7 @@ function Skills() {
       <h3 className="absolute top-36 text-sm tracking-[12px] text-gray-500 uppercase ">
         Hover over a skill for current proficiency
       </h3>
-      <div className="grid grid-cols-3  grid-flow-row  gap-4 ">
+      <div className="grid grid-cols-3 md:grid-cols-4 grid-flow-row  gap-4 ">
         {SkillData.map((skill, idx) => {
           return <Skill key={idx}
             {...skill}
