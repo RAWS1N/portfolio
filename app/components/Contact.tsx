@@ -1,6 +1,6 @@
 "use client"
 
-import React from 'react'
+import React, { useRef } from 'react'
 import SectionHeading from './Section-Heading'
 import {motion} from 'framer-motion'
 import useSectionInView from '@/hooks/useSectionInView'
@@ -11,6 +11,7 @@ import SubmitButton from './SubmitButton'
 
 const Contact = () => {
     const {ref} = useSectionInView('Contact')
+    const formRef = useRef<HTMLFormElement | null>(null)
 
    
 
@@ -29,13 +30,14 @@ const Contact = () => {
                 <a href="mailto:dharmicsinga@gmail.com" className="underline text-blue-500">dharmicsinga@gmail.com </a>
                 or through this form.
             </p>
-            <form className='mt-10 flex flex-col dark:text-black' action={async(formData) => {
+            <form ref={formRef} className='mt-10 flex flex-col dark:text-black' action={async(formData) => {
                 const {data,error} = await sendEmail(formData)
                 if(error){
                 toast.error(error)
                     return 
                 }
                 toast.success("Email sent successfully!")
+                formRef.current?.reset()
                 return data
                 
                 }}>
