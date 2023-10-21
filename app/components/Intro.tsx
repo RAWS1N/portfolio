@@ -52,10 +52,10 @@ const Intro = () => {
                 animate={{ opacity: 1, y: 0 }}
                 className="mb-10 mt-4 px-4 text-2xl font-medium leading-[1.5] sm:text-3xl">
                 <span className="font-bold">{`Hello, I'm Dharmi Chand,`}</span>{" "}
-                I'm a{" "}
+                I&apos;m a{" "}
                 <span className="font-bold capitalize text-blue-500 dark:text-white/80">full stack developer</span> with{" "}
                 <span className="font-bold">0.5 year </span>of experience. I enjoy building
-                <span className="font-italic"> sites & apps</span> My focus is {" "}
+                <span className="font-italic"> sites & apps.</span> My focus is {" "}
                 <span className='underline'>Mern & React(Next.js)</span>
             </motion.h1>
             <motion.div
