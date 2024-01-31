@@ -14,7 +14,7 @@ const Experience = () => {
 
     return (
         <section ref={ref} id="experience" className="scroll-mt-28">
-            <SectionHeading heading="My Experience" />
+            <SectionHeading heading="My Journey" />
             <VerticalTimeline lineColor={theme === 'light' ? '#e5e7eb' : "rgba(255,255,255,0.2)"} animate>
                 {experiencesData.map((experience, idx) => (
                    <React.Fragment  key={idx}>

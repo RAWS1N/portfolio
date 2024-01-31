@@ -37,6 +37,14 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Jr. Mern Stack Developer",
+    location: "Jaipur, Rajasthan (Remote)",
+    description:
+      "As a Junior MERN and Vue.js Developer, I actively contributed to the development of dynamic web applications. Employing React, Next.js, Vue.js, TypeScript, and Express.js, I focused on creating seamless user experiences. My responsibilities encompassed both front-end and back-end development, emphasizing collaboration, performance optimization, and robust security measures within an agile team environment.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - Present",
+  },
+  {
     title: "Full-Stack Developer",
     location: "Mumbai, Maharashtra (Remote)",
     description:
@@ -104,12 +112,14 @@ export const projectsData = [
 export const skillsData = [
   "Next.js",
   "React",
+  "Vue.js",
   "JavaScript",
   "TypeScript",
   "Tailwind",
   "HTML",
   "CSS",
   "Node.js",
+  "GraphQL",
   "Git",
   "Github",
   "MongoDB",
