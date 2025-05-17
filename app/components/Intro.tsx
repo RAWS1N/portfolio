@@ -54,9 +54,8 @@ const Intro = () => {
                 <span className="font-bold">{`Hello, I'm Dharmi Chand,`}</span>{" "}
                 I&apos;m a{" "}
                 <span className="font-bold capitalize text-blue-500 dark:text-white/80">full stack developer</span> with{" "}
-                <span className="font-bold">0.5 year </span>of experience. I enjoy building
-                <span className="font-italic"> sites & apps.</span> My focus is {" "}
-                <span className='underline'>Mern & React(Next.js)</span>
+                <span className="font-bold">2 year </span>of experience. I enjoy building
+                <span className="font-italic"> sites & apps.</span>
             </motion.h1>
             <motion.div
             initial={{ opacity: 0, y: 100 }}
